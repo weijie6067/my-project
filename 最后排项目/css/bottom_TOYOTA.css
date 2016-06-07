@@ -1,0 +1,258 @@
+*{margin: 0;padding: 0;}
+body{
+	background: #271b12;
+}
+.bottom_TOYOTA{
+	width: 980px;
+	margin: auto;
+	position: relative;
+	color: white;
+	line-height: 20px;
+}
+.content_top{
+	width: 100%;height: 250px;
+	background: rgb(39,27,18);
+	overflow: hidden;
+	position: relative;
+}
+.content_top .con_left{
+	width: 50px;height: 70px;
+	float: left;
+	background: url("../img_lyc/btn.png") -162px 23px no-repeat;	
+}
+.content_top .con_right{
+	float: left;
+	width: 80px;height: 70px;	
+	margin-top :28px;
+	text-align: center;	
+}
+.content_top div{
+	position: relative;
+	height: 100px;
+}
+#top{
+			width: 100%;
+			height: 110px;
+			position: relative;
+			overflow: hidden;	
+		}
+#outer{
+			margin: 0 120px;overflow: hidden;
+			width: 760px;
+			height: 110px;
+			/*position:relative;			*/
+			
+		}
+#inner{
+			height: 110px;
+			margin: 0 auto;
+			background: white;
+			position: absolute;
+		}
+#inner li{
+			list-style: none;
+			width: 130px;
+			height: 110px;
+			float: left;
+			cursor: pointer;
+			background: rgb(39,27,18);
+		}
+#top li img{
+			width: 110px;
+			height: 110px;
+			border-radius: 50%;
+		}
+#left,#right{
+			width: 110px;
+			height: 110px;
+			position: absolute;		
+			cursor: pointer;
+			z-index: 10;
+		}
+#left{background: url('../img_lyc/left.png');
+		background-size: 100%;
+		left: 0;}
+#right{background: url('../img_lyc/right.png');
+		background-size: 100%;right: 0;
+}
+#left:hover{background: url('../img_lyc/left1.png');
+	background-size: 100%;}
+		#right:hover{background: url('../img_lyc/right1.png');
+	background-size: 100%;}
+.content1{
+	height: 630px;
+	background: rgb(53,50,50);
+	overflow: hidden;
+}
+.content1_left{
+	width: 450px;
+	float: left;
+	text-align: center;
+}
+.content1_left img{
+	width:400px;
+	margin-top: 100px;
+	margin-left: 50px;
+	border-radius: 5%;
+}
+table{
+	border: 1px solid black;
+	margin-left: 100px;
+	text-align: center;
+	font-size: 15px;
+}
+table td ,table th{
+
+	border: 1px solid black;
+}
+.buy{
+
+	margin-top: 10px;
+}
+.content1_right {
+	width: 450px;
+	margin-top: 40px;
+	float: right;
+
+}
+.line{
+	width:350px;
+	height:2px;
+	margin: 10px 0px;
+	background: rgb(93,90,90);
+}
+.content1_right p{
+	width:350px;
+	font-size: 18px;
+	margin:10px 0px;
+}
+.content1_right a ,.content1_left a,.buy a{
+	color:#ff8100;
+	font-size: 16px;
+}
+.content1_right span{
+	display: block;
+	width:350px;
+	font-size: 15px;
+}
+.detail img{
+	width:150px;
+	border-radius: 10%;
+	margin-left: 20px;
+}
+.img1:hover{width: 500px;height: 500px;}
+.content2{
+	height: 630px;
+	background: rgb(40,40,40);
+	overflow: hidden;
+}
+.content2_left{
+	width: 450px;
+	float: right;
+	text-align: center;
+}
+.content2_left img{
+	width:400px;
+	margin-top: 100px;
+	border-radius: 5%;
+	margin-bottom: 20px;
+}
+.content2_right {
+	width: 450px;
+	margin-top: 40px;
+	float: left;
+
+}
+.content2_right p{
+	width:350px;
+	font-size: 18px;
+	margin:10px 0px;
+}
+.content2_right a ,.content1_left a{
+	color:#ff8100;
+	font-size: 16px;
+}
+.content2_right span{
+	display: block;
+	width:350px;
+	font-size: 15px;
+}
+#return_top{
+	width:80px;
+	height:80px;
+	color: #ff8800;
+	font-weight: bold;
+	border-radius: 50%;
+	background: blue;
+	text-align: center;
+	line-height: 80px;
+	position: absolute;
+	top:3984px;
+	left:47%;
+}
+
+#bg6btm{
+	width:100%;
+	height: 280px;
+	background: #1c1a1a;
+	margin: auto;
+	overflow: hidden;
+}
+#bg6btmaaaaa ul{
+	width: 150px;
+	height: 180px;
+	/*background: greenyellow;*/
+	float: left;
+	color: gray;
+	margin-top: 20px;
+	margin-left: 10px;
+	
+}
+#bg6btmaaaaa li{
+	font-size: 20px;
+	margin-left: 20px;
+	margin-top: 8px;
+	list-style: none;
+}
+#bg6btmaaaaa li:hover{
+	color: goldenrod;
+}
+
+#bg6btmaaaaa{
+	height: 220px;
+	width: 960px;
+	/*background: red;*/
+	margin: auto;
+}
+
+#bg6btmbbt{
+	width: 960px;
+	height: 40px;
+	overflow: hidden;
+	margin: auto;
+}
+.btmbbta{
+	width: 310px;
+	height: 1px;
+	background: white;
+	float: left;
+	margin-top: 20px;
+}
+.btmbbtb{
+	line-height: 40px;
+	float: left;
+	color: white;
+	font-weight: bold;
+	margin-left:102px;
+}
+.btmbbtc{
+	width: 310px;
+	height: 1px;
+	background: white;
+	float: left;
+	margin-top: 20px;
+	margin-left:102px ;
+}
+#bg6btmbbt li{
+	list-style: none;
+}

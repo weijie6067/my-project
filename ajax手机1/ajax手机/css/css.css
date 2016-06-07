@@ -1,0 +1,151 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: black;
+	width: 100%;
+	height: 100%;
+}
+li{
+	width: 1500px;
+	height:800px;
+	border: 3px solid white;
+	background: url() ;
+	background-color: black;
+}
+div{
+	margin: auto;
+}
+.page1,.page2, .page3, .page4, .page5{
+	height: 1140px;
+	/*width: 640px;*/
+	overflow: hidden;
+	position: relative;
+}
+.page1{
+	background: #083846;
+}
+.pa_top{
+	width: 469px;
+	height: 605px;
+}
+.pa_cen{
+	width: 370px;
+	height: 260px;
+	margin-top: 80px;
+}
+
+.page2{
+	background: #9261bf;
+}
+.pb_top{
+	width: 317px;
+	height: 223px;
+	margin-top: 30px;
+}
+.pb_cen{
+	width: 481px;
+	height: 535px;
+	margin-top: 80px;
+	overflow: hidden;
+}
+.pb_people{
+	width: 482px;
+	height: 435px;
+	margin-top: 90px;
+}
+.pb_seejob{
+	width: 288px;
+	height: 33px;
+	margin-top:75px;
+}
+.dot{
+	height: 12px;
+	width: 41px;
+	position: absolute;
+	bottom: 115px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.b_btn{
+	width: 50px;
+	height: 28px;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+}
+.page3{
+	background: #f3533c;
+}
+.pc_top{
+	width: 317px;
+	height: 223px;
+	margin-top: 30px;
+}
+
+.pc_cen{
+	width: 481px;
+	height: 535px;
+	margin-top: 80px;
+	overflow: hidden;
+}
+.pc_people{
+	width: 345px;
+	height: 529px;
+	position: absolute;
+	top: 570px;
+	left: 420px;
+		transform: translate(-50%,-50%);
+}
+.pc_seejob{
+	width: 288px;
+	height: 33px;
+	margin-top:75px;
+}
+.page4{
+	background: #ffbf50;
+}
+.pd_top{
+	width: 317px;
+	height: 223px;
+	margin-top: 30px;
+}
+
+.pd_cen{
+	width: 481px;
+	height: 535px;
+	margin-top: 80px;
+	overflow: hidden;
+}
+.pd_people{
+	width: 345px;
+	height: 529px;
+	position: absolute;
+	top: 590px;
+	left: 350px;
+		transform: translate(-50%,-50%);
+}
+.pd_seejob{
+	width: 288px;
+	height: 33px;
+	margin-top:75px;
+}
+
+.page5{
+	background: #083846;
+}
+
+.pe_cen{
+	width: 563px;
+	height: 486px;
+	margin-top: 220px;
+	overflow: hidden;
+}
+
+.pe_seejob{
+	width: 520px;
+	height: 88px;
+	margin-top:75px;
+}

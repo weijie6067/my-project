@@ -1,0 +1,186 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: black;
+	width: 100%;
+	height: 100%;
+}
+li{
+	width: 1500px;
+	height:800px;
+	border: 3px solid white;
+	background: url() ;
+	background-color: black;
+}
+div{
+	margin: auto;
+}
+.page1,.page2,.page22 ,.page3,.page32, .page4, .page42,.page5{
+	height: 100%;
+	/* width: 640px; */
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	
+}
+.hide{ display:none;}
+.page-current{
+	z-index:1;
+}
+.page1{
+	background: #083846;
+}
+.pa_top{
+	width: 469px;
+	height: 605px;
+}
+.pa_cen{
+	width: 370px;
+	height: 260px;
+	margin-top: 80px;
+}
+
+.page2 ,.page22{
+	background: #9261bf;
+}
+.pb_top{
+	width: 317px;
+	height: 223px;
+	margin-top: 30px;
+}
+.pb_cen{
+	width: 481px;
+	height: 535px;
+	margin-top: 80px;
+	overflow: hidden;
+}
+.pb_people{
+	width: 482px;
+	height: 435px;
+	margin-top: 90px;
+}
+.pb_seejob{
+	width: 288px;
+	height: 33px;
+	margin-top:75px;
+}
+.dot,.dot2{
+	height: 12px;
+	width: 41px;
+	position: absolute;
+	bottom: 115px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.b_btn{
+	width: 50px;
+	height: 28px;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+}
+.page3,.page32{
+	background: #f3533c;
+}
+.pc_top{
+	width: 317px;
+	height: 223px;
+	margin-top: 30px;
+}
+
+.pc_cen{
+	width: 481px;
+	height: 535px;
+	/* margin: auto; */
+	margin-top: 80px;
+	overflow: hidden;
+
+}
+.pc_people{
+	width: 345px;
+	height: 529px;
+	position: absolute;
+	top: 570px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.pc_seejob{
+	width: 288px;
+	height: 33px;
+	margin-top:75px;
+}
+.page4,.page42{
+	background: #ffbf50;
+}
+.pd_top{
+	width: 317px;
+	height: 223px;
+	margin-top: 30px;
+}
+
+.pd_cen{
+	width: 481px;
+	height: 535px;
+	margin-top: 80px;
+	overflow: hidden;
+}
+.pd_people{
+	width: 345px;
+	height: 529px;
+	position: absolute;
+	top: 590px;
+	left: 50%;
+		transform: translate(-50%,-50%);
+}
+.pd_seejob{
+	width: 288px;
+	height: 33px;
+	margin-top:75px;
+}
+
+.page5{
+	background: #083846;
+}
+
+.pe_cen{
+	width: 563px;
+	height: 486px;
+	margin-top: 220px;
+	overflow: hidden;
+}
+
+.pe_seejob{
+	width: 520px;
+	height: 88px;
+	margin-top:75px;
+}
+.pb_seejob2,.pc_seejob2,.pd_seejob2{
+	width: 520px;
+	height: 88px;
+	margin-top:75px;
+}
+.pb_cen2{
+	height: 714px;
+	width: 587px;
+	margin-top: 60px;
+}
+.pc_cen2{
+	height: 714px;
+	width: 593px;
+	margin-top: 60px;
+}
+.pd_cen2{
+	height: 714px;
+	width: 497px;
+	margin-top: 60px;
+}
+
+.page22 {
+	/*top:-1140px;*/
+}
+inner{
+	
+}

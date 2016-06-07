@@ -1,0 +1,416 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+body{
+	height: 3363px;
+}
+/*顶部开始*/
+.top{
+	height: 90px;
+	width: 1920px;
+	/*background-color: #555;*/
+}
+.top_r{
+	height:80px; 
+	width:1120px;
+	float: right;
+	margin: 10px 310px 0px 0px;
+	/*background-color: #ddd;*/
+}
+.top_r ul{
+	margin: 32px 0px 0px 0px;
+}
+.top_r li{
+	float:left; 
+	margin-right:  48px;
+	height: 50px;
+}
+
+.top_r a{
+	font-family: "微软雅黑";
+	color:black;
+	font-weight: bold;
+
+}
+.top_logo{
+	margin-top: 10px;
+}
+.top_logo a{	
+	color: #d0d602;
+	font-size: 20px;
+	font-weight: bold;
+}
+.inp_li{
+	height: 60px;
+	margin-top: -5px;
+}
+.top_r input{
+	width: 340px;
+	height: 40px;
+	background-color: #eeeeee;
+	color: #c5c5c5;
+	border-radius: 20px;
+	text-align: left;
+	margin: -10px 0px 0px 0px;
+
+}
+.top_up{
+	width: 34px;
+	height: 30px;
+	background: url(images/jl.png) no-repeat ;
+	margin-top: -10px;
+}
+/*顶部结束*/
+/*大图开始*/
+.bigpic{
+	width: 1920px;
+	height: 560px;
+
+}
+/*大图结束*/
+/*身体开始*/
+.mid{
+	width: 1200px;
+	height: 2550px;
+	margin: 0 auto;
+	/*background-color: #666;*/
+}
+.left{
+	width: 860px;
+	float: left;
+}
+.title{
+	width: 860px;
+	height: 78px;
+	border-bottom: 1px dotted black;
+}
+.jianhao{
+	width: 13px;
+	height: 11px;
+	display: inline-block;
+	background: url(images/jl.png) -35px 0px ;
+
+}
+.title span{
+	font-family: "微软雅黑";
+	font-size:26px;
+	color: #343233;
+	margin-top: 46px;
+}
+.left_bd: {
+	width: 825px;
+	height: 1000px;
+	overflow: hidden;
+}
+.left_bd div{
+	width: 845px;
+	height: 192px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.pic1{
+	margin-top: 30px;
+}
+.left_bd img{
+	float: left;
+}
+.left_bd span{
+	width: 515px;
+	height: 310px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 7px;
+}
+.left_bd h4,.p_b,.p_t{
+	font-family: "微软雅黑";
+}
+.p_b{
+	color: #5d5d5d;
+	line-height: 27px;
+	font-size: 14px;
+	clear: both;
+
+}
+.p_t{
+	color: black;
+	font-size: 14px;
+	padding: 14px 0;
+	float: left;
+	font-weight: bold;
+}
+.left_bd h4{
+	font-size: 18px;
+}
+.xiaobiao{
+	float: left;
+	width: 12px;
+	height: 15px;
+	background: url(images/jl.png) -48px 0px;
+	margin: 20px 0px 0px 10px;
+}
+.numb{
+	float:left;
+	margin: 15px 0px 0px 10px;
+}
+.bot_ml{
+	width: 840px;
+	height: 35px;
+	background-color: #eeeeee;
+	overflow: hidden;
+}
+.bot_ml a{
+	font-family: "微软雅黑";
+	color: #a7a7a7;
+	line-height: 35px;
+	margin-left: 355px;
+	font-size: 12px;
+
+}
+ /*左侧结束*/
+ /*右侧开始 */
+ .right{
+ 	width: 300px;
+ 	height: 2530px;
+ 	/*background-color: #555;*/
+ 	float: right;
+ }
+ .r_t1{
+	width: 300px;
+	height: 78px;
+	border-bottom: 1px solid #ebebeb;
+}
+.r_t1 span{
+	font-family: "微软雅黑";
+	font-size:26px;
+	color: black;
+	padding-top: 30px;
+	display: block;
+}
+.r1{
+	width: 265px;
+	height: 190px;
+	margin-top: 30px;
+}
+.r1_l{
+	float: left;
+	width: 55px;
+	height: 190px;
+}
+.r1_l1{
+	width: 55px;
+	height: 85px;
+	background: url(images/jl.png) -60px 0;
+}
+.r1_l2{
+	width: 44px;
+	height: 85px;
+	background: url(images/jl.png) -116px 0;
+	margin-left: 5px;
+}
+.r1_l3{
+	width: 55px;
+	height: 40px;
+	background: url(images/jl.png) -160px 0;
+}
+.r1_r{
+	width: 180px;
+	height: 190px;
+	float: left;
+	margin-left: 20px;
+}
+.r1_r li{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	border-bottom: 1px solid #ebebeb;
+}
+.r1_r1{
+	margin-top: 12px;
+	height: 45px;
+}
+.r1_r2{
+	margin-top: 35px;
+	height: 40px;
+}
+.r1_r3{
+	margin-top: 12px;
+	height: 40px;
+}
+.r1_r span{
+	height: 9px;
+	width: 9px;
+	display: inline-block;
+	margin-left: 40px;
+	background:url(images/jl.png) -217px 0px;
+}
+.r_t2{
+	width: 300px;
+	height: 40px;
+	border-bottom: 1px solid #ebebeb;
+	margin-top: 70px;
+}
+.r_t2 span{
+	font-family: "微软雅黑";
+	font-size:26px;
+	color: black;
+	/*padding-top: 30px;*/
+	display: block;
+}
+.list{
+	width: 280px;
+	height: 570px;
+	margin-top: 25px;
+}
+.list dl{
+	width: 278px;
+	height: 85px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #ebebeb;
+}
+.list dt{
+	height: 65px;
+	width: 65px;
+	float: left;
+}
+.list_pic1{
+	background: url(images/pic_10.png);
+}
+.list_pic2{
+	background: url(images/pic_15.png);
+}
+.list_pic3{
+	background: url(images/pic_17.png);
+}
+.list_pic4{
+	background: url(images/pic_21.png);
+}
+.list_pic5{
+	background: url(images/pic_24.png);
+}
+.list_pic6{
+	background: url(images/pic_17.png);
+}
+.list dd{
+	height: 21px;
+	margin-left: 85px;
+	font-family: "微软雅黑";
+}
+.txt{
+	font-weight: bold;
+}
+.xiaobiao2{
+	display: inline-block;
+	width: 12px;
+	height: 10px;
+	background: url(images/jl.png) -48px 0px;
+	margin: 0px 0px 0px 10px;
+}
+.noborder{
+	border: none;
+}
+.r_t3{
+	width: 300px;
+	height: 40px;
+	border-bottom: 1px solid #ebebeb;
+	margin-top: 50px;
+}
+.r_t3 span{
+	font-family: "微软雅黑";
+	font-size:26px;
+	color: black;
+	/*padding-top: 30px;*/
+	display: block;
+}
+.rtxt1{
+	font-family: "微软雅黑";
+	width: 265px;
+	height: 70px;
+	margin-top: 30px;
+	font-weight: lighter;
+	font-size: 12px;
+	line-height: 20px;
+}
+.rtxtd{
+	font-family: "微软雅黑";
+	width: 265px;
+	height: 350px;
+	margin-top: 30px;
+	font-weight: lighter;
+	font-size: 12px;
+	line-height: 20px;
+}
+.pic_b1{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 280px;
+	height: 280px;
+}
+/*身体结束*/
+/*底部开始 */
+.bot{
+	width: 1920px;
+	height:163px;
+	background-color: #414143;
+	overflow: hidden;
+
+}
+.link{
+	height: 130px;
+	width: 1500px;
+	margin-top: 20px;
+	margin-left: 370px;
+	/*overflow: hidden;*/
+}
+.link ul{
+	font-family: "微软雅黑";
+	color: white;
+	width: 300px;
+	height: 130px;
+	float: left;
+	/*margin-top: 20px;
+	margin-left: 370px;*/
+	border-left: 1px solid white;
+}
+.link ul li{
+	margin-left: 10px;
+}
+.link dl{
+	width: 300px;
+	height: 200px;
+	float: left;
+}
+.link dt{
+	font-family: "微软雅黑";
+	color: white;
+	margin-left: 5px;
+}
+.link dd{
+	height: 21px;
+	width: 21px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 20px;
+}
+.wailian1{
+	background: url(images/jl.png) -228px 0 no-repeat;
+}
+.wailian2{
+	background: url(images/jl.png) -251px 0 no-repeat;
+}
+.wailian3{
+	background: url(images/jl.png) -272px 0 no-repeat;
+}
+.wailian4{
+	background: url(images/jl.png) -294px 0 no-repeat;
+}
+.wailian5{
+	background: url(images/jl.png) -316px 0 no-repeat;
+}

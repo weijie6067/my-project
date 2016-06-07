@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ul{
+	list-style: none;
+}
+
+.out{
+	width: 640px;
+	height: 1140px;
+}
+.top{
+	width: 640px;
+	height: 125px;
+	background: #4c93eb;
+	overflow: hidden;
+}
+.t_center{
+	height:40px;
+	margin-top: 55px;
+	position: relative;
+}
+.set{
+	width: 40px;
+	height: 25px;
+	background: url(../img/index_btn.png) no-repeat;
+	margin-left: 25px;
+	display: inline-block
+}
+.t_center span{
+	color: white;
+	width: 145px;
+	display: inline-block;
+	margin-left: 180px;
+	font-size: 34px;
+	font-family: "微软雅黑";
+}
+.search{
+	width: 32px;
+	height: 34px;
+	background: url(../img/index_btn.png) -41px 0px no-repeat;
+	top: 10px;
+	right: 13px;
+	position: absolute;
+	display: inline-block
+}
+.picshow{
+	width: 640px;
+	height: 330px;
+}
+.swiperpic1{
+	background: url(../img/pic1.png) no-repeat;
+	background-position: center;
+    background-size: cover;
+}
+.swiperpic2{
+	background: url(../img/pic2.png) no-repeat;
+	background-position: center;
+    background-size: cover;
+}		
+.swiperpic3{
+	background: url(../img/pic3.png) no-repeat;
+	background-position: center;
+    background-size: cover;
+}	
+.class{
+	width: 625px;
+	height: 585px;
+	margin: auto;
+	margin-top: 45px;
+}
+.c_top{
+	vertical-align: middle;
+	overflow: hidden;
+	position: relative;
+}
+.fir{
+	width: 25px;
+	height: 30px;
+	background: url(../img/index_btn.png) -73px 0px no-repeat;
+	display: inline-block;
+	position: relative;
+	top: 3px;
+}
+.class span{
+	color: #343131;
+	font-size: 30px;
+}
+.class ul{
+	width: 300px;
+	height: 255px;
+	border: 1px solid  #dedede;
+	float: left;
+	font-family: "微软雅黑";
+}
+.c_up{
+	margin-top: 20px;
+	height: 257px;
+}
+.c_down{
+	margin-top: 15px;
+}
+.c_l{
+	margin-right: 15px;
+}
+.c_pic{
+	width: 298px;
+	height: 177px;
+	margin-top: 1px;
+}
+.c_pic1{
+	background: url(../img/class1.png) no-repeat;
+}
+.c_pic2{
+	background: url(../img/class2.png) no-repeat;
+}
+.c_pic3{
+	background: url(../img/class3.png) no-repeat;
+}
+.c_pic4{
+	background: url(../img/class4.png) no-repeat;
+}
+.c_up li{
+	margin-left: 1px;
+}
+.c_txt{
+	font-family: "微软雅黑";
+	font-size: 24px;
+	text-indent: 10px;
+	margin-top: 12px;
+}
+.class .money{
+	font-size: 20px;
+	color: #ff6600;
+	margin-left: 14px;
+	margin-top: 15px;
+}
+.class .class_num{
+	margin-left: 122px;
+	margin-top: 15px;
+	font-size: 20px;
+	color: #9a9a9a;
+}

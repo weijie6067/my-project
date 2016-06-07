@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ul{
+	list-style: none;
+}
+body{
+	font-family: "微软雅黑";
+}
+.out{
+	width: 640px;
+	height: 1140px;
+	background: url(../img/registerbg.png);
+	background-color: #4c93eb;
+	overflow: hidden;
+}
+.reg_head{
+	width: 182px;
+	height: 182px;
+	border-radius: 50%;
+	background: #c4c3c3;
+	margin: auto;
+	margin-top: 126px;
+	overflow: hidden;
+	text-align: center;
+}
+.camera{
+	background:url(../img/index_btn.png) no-repeat  -340px -111px;
+	height: 45px;
+	width: 56px;
+	margin: auto;
+	margin-top: 45px;
+}
+.reg_bot{
+	width: 460px;
+	margin: auto;
+	margin-top: 183px;
+	position: relative;
+}
+
+.reg_head p{
+	font-size: 22px;
+	color: white;
+	margin-top: 19px;
+}
+.reg_bot input{
+	height: 80px;
+	width: 455px;
+	outline: none;
+	border: 1px solid #dedede;
+	margin-bottom: 10px;
+	font-size: 30px;
+	text-indent: 90px;
+	border-radius: 5px;
+	overflow: hidden;
+	line-height: 80px;
+}
+ input[type="button"]{
+	cursor: pointer;
+}
+.cell{
+	background:url(../img/index_btn.png) no-repeat 0px -294px;
+}
+.lock{
+	background:url(../img/index_btn.png) no-repeat 0px -408px;
+}
+.reg_bot .code{
+	width: 275px;
+}
+.reg_bot .getcode{
+	width: 170px;
+	height: 75px;
+	border: none;
+	background: #f3b045;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	text-indent: 0px;
+	position: absolute;
+	top: 184px;
+	left: 286px;
+	
+}
+.reg_bot .regblue{
+	background: #4c93eb;
+	margin-top: 69px;
+	text-align: center;
+	text-indent: 0px;
+	color: white;
+}
+.reg_bot span a{
+	margin-top: 60px;
+	font-size: 24px;
+	color: #606060;
+}
+.regload a{
+	float: left;
+	margin-left: 10px;
+}
+.agree a{
+	float: right;
+	margin-right: 10px;
+}

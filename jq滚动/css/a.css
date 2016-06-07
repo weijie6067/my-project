@@ -1,0 +1,97 @@
+*{
+				margin: 0;
+				padding: 0;
+				
+			}
+			#pic1,#pic2,#pic3,#pic4{
+				width: 960px;
+				height: 350px;
+				background-size: 100%;
+				float: left;
+			}
+			#pic1{
+				background: url(../tslimg/show1.jpg);
+				background-size: 100%;
+			}
+			#pic2{
+				background: url(../tslimg/show2.jpg);
+				background-size: 100%;
+			}
+			#pic3{
+				background: url(../tslimg/show3.jpg);
+				background-size: 100%;
+			}
+			#pic4{
+				background: url(../tslimg/show4.jpg);
+				background-size: 100%;
+			}
+			.outer7{
+				height: 350px;
+				margin: auto;
+				position: relative;
+
+			}
+			.lunbo7bot div{
+				width: 240px;
+				height: 160px;
+				float: left;
+				opacity: 1;
+				/*position: fixed;*/
+			}
+			.lunbo7bot .bot1{
+				background: url(../tslimg/show1.jpg);
+				background-size: 100%;
+				/*opacity: 0.5;*/
+			}
+			.bot2{
+				background: url(../tslimg/show2.jpg);
+				background-size: 100%;
+			}
+			.bot3{
+				background: url(../tslimg/show3.jpg);
+				background-size: 100%;
+			}
+			.bot4{
+				background: url(../tslimg/show4.jpg);
+				background-size: 100%;
+			}
+			.lunbo7{
+				width: 960px;
+				height: 350px;
+				margin: auto;
+				position: relative;
+				overflow: hidden;
+			}
+			.luoboout{
+				width: 960px;
+				height: 510px;
+				margin: auto;
+				position: relative;
+				overflow: hidden;
+			}
+			.lunbo7bot{
+				width: 960px;
+				height: 160px;
+			}
+			.prev,.next{
+				width:45px;
+				height:100px;
+				overflow:hidden;
+				/*text-indent: -999px;*/
+				
+				position: absolute;
+				cursor: pointer;
+				top: 140px;
+				/*margin: 85px 0 0 0;*/
+				background: url(../tslimg/silder_btn.gif) no-repeat;
+			}
+			.prev{
+				left:0;
+				background-position: left 0;
+
+			}
+			.next{
+				right:0;
+				background-position: right 0;
+			}
+		

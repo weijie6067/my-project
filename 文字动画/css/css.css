@@ -1,0 +1,14 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	color: black;
+	font-family: "微软雅黑";
+	font-size: 50px;
+	text-align: center;
+}
+.txt{
+	height: 500px;
+	margin-top: 200px;
+}

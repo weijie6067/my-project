@@ -1,0 +1,147 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+.top{
+	background-color: #333333;
+	height: 40px;
+}
+.shuxian{
+	color: #aaaaaa;
+
+}
+a{
+	font-size: 14px;
+	color: #aaaaaa;
+	text-decoration: none;
+}
+.tou{
+	float: right;
+	margin-top:3px;
+	line-height: 10px;
+	height: 25px;
+	padding-top: 5px;
+}
+.left{
+	text-align: left;
+	word-spacing: 13px;
+	text-indent: 2em;
+	width: 800px;
+	padding-top: 10px;	
+}
+.right{
+	width: 500px;
+	height: 40px;
+	float: right;
+	margin-top: -17px;
+	vertical-align: middle;
+}
+ul li{
+	list-style: none;
+	float: left;
+	word-spacing: 5px;
+	padding-right: 8px;
+}
+.tubiao{
+	width: 28px;
+	height: 28px;
+	background: url(img/design.png) -36px 0 no-repeat;	
+	display: inline-block;
+	margin-top: -4px
+}
+.tubiao2{
+	width: 28px;
+	height: 28px;
+	background: url(img/login.png) -2px -152px no-repeat;	
+	display: inline-block;
+	margin-top: -4px
+}
+.tubiao3{
+	width: 28px;
+	height: 28px;
+	background: url(img/login.png) -192px -145px no-repeat;	
+	display: inline-block;
+	margin-top: -4px;
+	margin-left:20px;
+}
+.text{
+	height: 25px;
+	margin-left: 5px;
+	margin-top: 1px;
+	display: inline-block;
+}
+.tubiao2{
+
+}
+s{
+	background-image: url(img/design.png) -36px 0 no-repeat; 
+}
+
+body {
+	background:url(img/bg.jpg) no-repeat scroll;
+	width: 1920px;
+	height: 700px;
+}
+.sousuo{
+	height: 45px;
+	width: 650px;
+	margin: 200px 0px 0px 200px;
+}
+.logo{
+	height: 45px; 
+	width: 92px;
+	display: block;
+}	
+.pic{
+	height: 45px;
+	width:92px;
+}
+.boxinp{
+	width:500px;
+	margin: -45px 0px 0px 92px;
+	display: block;
+}
+.inp{
+	width: 500px;
+	height: 45px;
+}
+.searchfx{
+	width:50px;
+	
+	margin: -45px 0px 0px 592px;
+	display: block;
+}
+.search{
+	width: 50px;
+	height: 45px;
+	border: none;
+	background-image: url(img/ss.png);
+	background-color: #0a8582; 	
+}
+.fuhao{
+	text-align: right;
+	margin: 555px 70px 0px 0px;
+}
+.bottom{
+	background-color: #333333;
+	height: 30px;
+	word-spacing: 13px;
+	margin-top:45px;
+	text-indent: 2em; 
+	padding-top: 5px;
+}
+.word span{ 
+	word-spacing: 13px;
+	font-size: 14px;
+	color: #aaaaaa;
+	
+}
+.youduiqi{
+	text-align: right;
+	margin-right: 60px;	
+}
+div{
+	border: 1px ;
+	border-color: yellow;
+}
