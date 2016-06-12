@@ -85,8 +85,8 @@ body,html{
 }
 .nav .current a{
 	color: #0159C3;
-	/* -webkit-zo */
 }
+/* 导航结束 */
 .us_title{
 	margin-left: 20px;
 	height: 32px;
@@ -98,6 +98,9 @@ body,html{
 	float: left;
 	height: 32px;
 	border-left: 4px solid #FF7000;
+}
+.us_hid{
+	visibility:hidden;
 }
 .us_tit_txt{
 	float: left;
@@ -126,13 +129,15 @@ body,html{
 .tit_posb{
 	margin-top: 45px;
 }
+.us_team{
+	height: auto;
+}
 .us_men{
 	margin-left: 27px;
 	margin-top: 20px;
 }
 .us_menImg{
-	float: left;
-	
+	float: left;	
 }
 .us_menTxt{
 	margin-left: 40px;
@@ -140,7 +145,6 @@ body,html{
 	/* width: 440px;	 */
 	width: 74%;
 	padding-bottom: 25px;
-
 }
 .us_name{
 	width: 108px;
@@ -188,10 +192,123 @@ body,html{
 .us_schoolInf p{
 	margin-top: 10px;
 }
+.us_schoolInf h3 a{
+	font-size: 20px;
+	font-weight: normal;
+}
+.us_schoolInf p a{
+	font-size: 16px;
+	color: #999;
+}
 .us_schoolInf span{
 	margin-left: 5px;
 }
 .us_shortlineb{
 	margin-top: 0px;
 	margin-left: 20px;
+}
+.us_honor img{
+	padding-bottom:5px ;
+}
+.us_honorpic{
+	margin-top: 20px;
+	width: 560px;
+	overflow: hidden;
+	margin: auto;
+}
+.us_honorpic ul{
+	overflow: hidden;
+	padding-bottom: 12px;
+
+}
+.us_honorpic li{
+	float: left;
+	width: 265px;
+	text-align: center;
+	font-size: 14px;
+}
+.us_honorR{
+	margin-left: 30px;
+}
+.us_honorpica{
+	margin-top: 20px;
+}
+.events{
+	margin-top: 20px;
+	margin-left: 27px;
+	color: #333333;
+	line-height:30px ;
+
+}
+.bottom{
+	width: 640px;
+	height: 80px;
+	background-color:#2a2a2a;
+	position: fixed;
+	bottom: 0;
+}
+.bottom .phone{
+	width: 215px;height: 72px;
+	margin: auto 35px;
+	display: inline-block;
+}
+.phone img ,.qq img{
+	width: 215px;height: 72px;
+}
+.bottom .center{
+	display: inline-block;
+	margin:0px 35px 0px 15px;
+}
+.bottom .qq{
+	width: 215px;height: 72px;
+	margin: auto ;
+	display: inline-block;
+}
+.us_empty{
+	height: 90px;
+}
+.backtop{
+	width: 46px;
+	height: 46px;
+	/*border-radius: 50%;*/
+	position: fixed;
+	bottom:10%;
+	right: 2%;
+	background:url(../img/backtop.png);
+	display: none;
+}
+/* 我们结束 */
+
+.teacheDetContent{
+	width: 600px;
+	margin: auto;
+	margin-top: 40px;
+}
+.teacherPic{
+	margin-bottom: 20px;
+}
+.tit_posc{
+	margin-left: 0px;
+	margin-top: 20px;
+}
+.teacheDetContent h2{
+	font-weight: normal;
+	font-size: 20px;
+	color: #333;
+	padding-bottom: 17px;
+}
+.teacheDetContent p{
+	font-size: 14px;
+	color: #656565;
+	line-height: 38px;
+	margin-top: 10px;
+
+}
+.black{
+	color: #000;
+	font-weight: bold;
+}
+.teacherApp{
+	width: 600px;
+	margin-top: 40px;
 }
