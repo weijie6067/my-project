@@ -9,48 +9,46 @@ a{
 ul,ol,li{
 	list-style: none;
 }
-html{
-	font-size: 625%;
-}
 body{
 	font-family:"微软雅黑";
 	font-size: 0.14rem;
 }	
 
 body,html{
-	/* width: 100%; */
-	/* height: 100%; */
+	width: 100%;
+	height: 100%;
+	font-size: 625%;
 
 }
 .wrap{
-	width: 6.4rem;
-	overflow: hidden;
+	width: 640px;
+	/* height: 2000px; */
 }
 .header{
-	width: 6.4rem;
-	height: 0.9rem;
+	width: 640px;
+	height: 90px;
 	background-color:#0259C3;
 	overflow: hidden;
 	position: relative;
 }
 .logo{
-	width: 1.3rem;
-	height: 0.48rem;
-	margin-left: 0.25rem;
-	margin-top: 0.2rem;
+	width: 130px;
+	height: 48px;
+	margin-left: 25px;
+	margin-top: 20px;
 	float: left;
 }
 .verticalLine{
-	height: 0.38rem;
-	width: 0rem;
-	margin-left: 0.1rem;
-	margin-top: 0.27rem;
+	height: 38px;
+	width: 0px;
+	margin-left: 10px;
+	margin-top: 27px;
 	border-left:1px solid #95B9E6;
 	float: left;
 }
 .introduce{
 	position: absolute;
-	left: 1.8rem;
+	left: 180px;
 	top: 50%;
 	-webkit-transform: translate(0, -50%);
 	-moz-transform: translate(0, -50%);
@@ -59,109 +57,106 @@ body,html{
 	float: left;
 }
 .beingWeb{
-	font-size: 0.18rem;
+	font-size: 18px;
 	color: #fff;
 }
 .company{
-	font-size: 0.14rem;
+	font-size: 14px;
 	color: #fff;
 }
 .nav{
-	width: 6.4rem;
-	height: 0.65rem;
+	width: 640px;
+	height: 65px;
 	background-color: #E9E9E9;
 }
 .nav li{
 	float: left;
-	width: 0.90rem;
-	height: 0.62rem;
-	margin: 0rem 0.08rem;
-	line-height: 0.65rem;
+	width: 90px;
+	height: 62px;
+	margin: 0px 8px;
+	line-height: 65px;
 	text-align: center;
 }
 .nav a{
-	font-size: 0.24rem;
+	font-size: 24px;
 	color: #333;
 }
 .current{
-	border-bottom: 0.03rem solid #0259C3;
+	border-bottom: 3px solid #0259C3;
 }
 .nav .current a{
 	color: #0159C3;
 }
 /* 导航结束 */
 .us_title{
-	margin-left: 0.20rem;
-	height: 0.32rem;
+	margin-left: 20px;
+	height: 32px;
 }
 .tit_posa{
-	margin-top: 0.35rem;
+	margin-top: 35px;
 }
 .orangeLine{
 	float: left;
-	height: 0.32rem;
-	border-left: 0.04rem solid #FF7000;
+	height: 32px;
+	border-left: 4px solid #FF7000;
 }
 .us_hid{
 	visibility:hidden;
 }
 .us_tit_txt{
 	float: left;
-	height: 0.32rem;
-	line-height: 0.32rem;
-	margin-left: 0.18rem;
+	height: 32px;
+	line-height: 32px;
+	margin-left: 18px;
 }
 .us_tit_txt a{
-	font-size: 0.24rem;	
+	font-size: 24px;	
 }
 .us_longlinePos{
-	margin-top: 0.16rem;
+	margin-top: 16px;
 }
 .us_longline{
-	border-bottom: 0.02rem solid #E5E5E5;
-	width: 6.4rem;
+	border-bottom: 2px solid #E5E5E5;
+	width: 640px;
 }
 .us_introTxt{
-	width: 5.9rem;
-	margin-left: 0.20rem;
-	margin-top: 0.27rem;
+	width: 590px;
+	margin-left: 20px;
+	margin-top: 27px;
 	color: #999999;
-	font-size: 0.16rem;
+	font-size: 16px;
 	text-indent: 2em;
 }
 .tit_posb{
-	margin-top: 0.45rem;
+	margin-top: 45px;
 }
 .us_team{
 	height: auto;
 }
 .us_men{
-	margin-left: 0.27rem;
-	margin-top: 0.20rem;
+	margin-left: 27px;
+	margin-top: 20px;
 }
 .us_menImg{
 	float: left;	
 }
-.us_menImg img{
-	width: 1.08rem;
-}
 .us_menTxt{
-	margin-left: 0.40rem;
-	margin-top: 0.10rem;
+	margin-left: 40px;
+	margin-top: 10px;
 
 	float: left;
-	width: 4.4rem;
-	padding-bottom: 0.25rem;
+	width: 440px;
+	padding-bottom: 25px;
 	
 	
 }
 .us_name{
-	width: 1.08rem;
+	width: 108px;
 	text-align: center;
 }
 .us_menIntro{
-	margin-top: 0.05rem;
-	font-size: 0.12rem;
+	margin-top: 5px;
+	font-size: 12px;
 	color: #999;
 	text-overflow: ellipsis;
 	overflow: hidden;
@@ -170,34 +165,31 @@ body,html{
 	-webkit-box-orient: vertical;
 }
 .us_menTitle{
-	font-size: 0.16rem;
+	font-size: 16px;
 }
 .us_shortline{
-	margin-top:0.15rem;
-	border-bottom: 0.02rem solid #E5E5E5;
-	width: 6.2rem;
+	margin-top:15px;
+	border-bottom: 2px solid #E5E5E5;
+	width: 620px;
 	clear: both;
 }
 .us_schools {
-	margin-left: 0.27rem;
-	height: 1.8rem;
+	margin-left: 27px;
+	height: 180px;
 	position: relative;
 }
 .us_schools li{
 	float: left;
 }
 .us_schoImg{
-	height: 1.46rem;
+	height: 146px;
 	position: relative;
 	top: 50%;
-	margin-top: -0.73rem;
+	margin-top: -73px;
 	}
-.us_schoImg img{
-	width: 2.1rem;
-}
 .us_schoolInf{
-	margin-left: 0.18rem;
-	width: 3.5rem;
+	margin-left: 18px;
+	width: 350px;
 	position: relative;
 	top: 50%;
 	transform: translate(0, -50%);
@@ -207,128 +199,116 @@ body,html{
 	-o-transform: translate(0, -50%);
 }
 .us_schoolInf p{
-	margin-top: 0.10rem;
+	margin-top: 10px;
 }
 .us_schoolInf h3 a{
-	font-size: 0.20rem;
+	font-size: 20px;
 	font-weight: normal;
 }
 .us_schoolInf p a{
-	font-size: 0.16rem;
+	font-size: 16px;
 	color: #999;
 }
 .us_schoolInf span{
-	margin-left: 0.05rem;
-}
-.us_schoolInf img{
-	width: 0.12rem;
+	margin-left: 5px;
 }
 .us_shortlineb{
-	margin-top: 0rem;
-	margin-left: 0.20rem;
+	margin-top: 0px;
+	margin-left: 20px;
 }
 .us_honor img{
-	padding-bottom:0.05rem ;
+	padding-bottom:5px ;
 }
 .us_honorpic{
-	margin-top: 0.20rem;
-	width: 5.6rem;
+	margin-top: 20px;
+	width: 560px;
 	overflow: hidden;
 	margin: auto;
 }
 .us_honorpic ul{
 	overflow: hidden;
-	padding-bottom: 0.12rem;
+	padding-bottom: 12px;
 }
 .us_honorpic li{
 	float: left;
-	width: 2.65rem;
+	width: 265px;
 	text-align: center;
-	font-size: 0.14rem;
-}
-.us_honorpic img{
-	width: 2.65rem;
+	font-size: 14px;
 }
 .us_honorR{
-	margin-left: 0.30rem;
+	margin-left: 30px;
 }
 .us_honorpica{
-	margin-top: 0.20rem;
+	margin-top: 20px;
 }
 .events{
-	margin-top: 0.20rem;
-	margin-left: 0.27rem;
+	margin-top: 20px;
+	margin-left: 27px;
 	color: #333333;
-	line-height:0.30rem ;
+	line-height:30px ;
 }
 .bottom{
-	width: 6.4rem;
-	height: 0.8rem;
+	width: 640px;
+	height: 80px;
 	background-color:#2a2a2a;
 	position: fixed;
 	bottom: 0;
-	/* text-align: center; */
 }
 .bottom .phone{
-	width: 2.15rem;height: 0.72rem;
-	margin: auto 0.35rem;
+	width: 215px;height: 72px;
+	margin: auto 35px;
 	display: inline-block;
 }
 .phone img ,.qq img{
-	width: 2.15rem;height: 0.72rem;
+	width: 215px;height: 72px;
 }
 .bottom .center{
 	display: inline-block;
-	margin:0rem 0.35rem 0rem 0.15rem;
-	height: 0.8rem;
+	margin:0px 35px 0px 15px;
 }
-
 .bottom .qq{
-	width: 2.15rem;height: 0.72rem;
-	/* margin: auto ; */
+	width: 215px;height: 72px;
+	margin: auto ;
 	display: inline-block;
 }
 .us_empty{
-	height: 0.90rem;
+	height: 90px;
 }
 .backtop{
-	/* width: 0.46rem;
-	height: 0.46rem;
+	width: 46px;
+	height: 46px;
 	/*border-radius: 50%;*/
 	position: fixed;
-	bottom:0.4rem;
+	bottom:10%;
 	right: 2%;
 	background:url(../img/backtop.png);
-	display: none; */
+	display: none;
 }
 /* 我们结束 */
 
 .teacheDetContent{
-	width: 6rem;
+	width: 600px;
 	margin: auto;
-	margin-top: 0.40rem;
+	margin-top: 40px;
 }
 .teacherPic{
-	margin-bottom: 0.20rem;
-}
-.teacherPic img{
-	width: 6rem;
+	margin-bottom: 20px;
 }
 .tit_posc{
-	margin-left: 0rem;
-	margin-top: 0.20rem;
+	margin-left: 0px;
+	margin-top: 20px;
 }
 .teacheDetContent h2{
 	font-weight: normal;
-	font-size: 0.20rem;
+	font-size: 20px;
 	color: #333;
-	padding-bottom: 0.17rem;
+	padding-bottom: 17px;
 }
 .teacheDetContent p{
-	font-size: 0.14rem;
+	font-size: 14px;
 	color: #656565;
-	line-height: 0.38rem;
-	margin-top: 0.10rem;
+	line-height: 38px;
+	margin-top: 10px;
 
 }
 .black{
@@ -336,32 +316,32 @@ body,html{
 	font-weight: bold;
 }
 .teacherApp{
-	width: 6rem;
-	margin-top: 0.40rem;
+	width: 600px;
+	margin-top: 40px;
 }
 
 /* 招聘 */
 .jobcontent{
-	width: 6rem;
+	width: 607px;
 	height: auto ;
 	margin: auto;
 	overflow: hidden;
 }
 .jobwidth{
-	width: 4.45rem;
-	margin-left: 0.08rem;
-	padding-bottom: 0.05rem;
+	width: 445px;
+	margin-left: 8px;
+	padding-bottom: 5px;
 }
 .jobcontent li{
 	float: left;
 	height: auto;
 }
 .jobcontent img{
-	width: 1.5rem;
+	width: 150px;
 
 }
 .jobcontent h3 a {
-	font-size: 0.20rem;
+	font-size: 20px;
 	font-weight: normal;
 	text-overflow: ellipsis;
 	overflow: hidden;
@@ -370,8 +350,8 @@ body,html{
 	-webkit-box-orient: vertical;
 }
 .jobinf{
-	margin-top:0.05rem;
-	font-size: 0.14rem;
+	margin-top:8px;
+	font-size: 16px;
 	color: #999;
 	text-overflow: ellipsis;
 	overflow: hidden;
@@ -380,13 +360,9 @@ body,html{
 	-webkit-box-orient: vertical;
 }
 .date{
-	font-size: 0.14rem;
+	font-size: 14px;
 	color: #cbcbcb;
 }
 .jobs{
-	padding: 0.10rem 0;
-}
-.jobs img{
-	width: 1.3rem;
-	margin-top: 0.08rem;
+	padding: 10px 0;
 }

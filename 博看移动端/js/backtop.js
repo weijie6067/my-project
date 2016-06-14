@@ -1,17 +1,30 @@
-window.onload=function(){
-	var wid=document.documentElement.clientWidth;
-	var scale=wid/640
-	// document.body.style.webkitZoom=scale;
-	document.body.style.zoom=scale;
-	
+// window.onload=function(){
+// 	var wid=document.documentElement.clientWidth;
+// 	var scale=wid/640
+// 	// document.body.style.webkitZoom=scale;
+// 	document.body.style.zoom=scale;		
+// }
+// window.onresize=function(){
+// 	var wid=document.documentElement.clientWidth;
+// 	var scale=wid/640 
+// 	// document.body.style.webkitZoom=scale;
+// 	document.body.style.zoom=scale;	
+// }
+window.onload = function(){
+	var wid = document.documentElement.clientWidth;
+	var newfs = wid*100/640;
+	//wid*默认的字体大小/设计图的大小
+	var html = document.getElementsByTagName('html')[0];
+	html.style.fontSize = newfs+"px";
 }
-window.onresize=function(){
-	var wid=document.documentElement.clientWidth;
-	var scale=wid/640 
-	// document.body.style.webkitZoom=scale;
-	document.body.style.zoom=scale;
-	
+window.onresize = function(){
+	var wid = document.documentElement.clientWidth;
+	var newfs = wid*100/640;
+
+	var html = document.getElementsByTagName('html')[0];
+	html.style.fontSize = newfs+"px";
 }
+
 var scrolltotop={
 	setting:{
 		startline:100, //起始行
@@ -20,7 +33,7 @@ var scrolltotop={
 		fadeduration:[500,100] //淡出淡现消失
 	},
 	controlHTML:'<img src="img/backtop.png" style="width:46px; height:46px; border:0;" />', //返回顶部按钮
-	controlattrs:{offsetx:14,offsety:140},//返回按钮固定位置
+	controlattrs:{offsetx:14,offsety:60},//返回按钮固定位置
 	anchorkeyword:"#top",
 	state:{
 		isvisible:false,
