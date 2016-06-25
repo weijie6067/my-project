@@ -26,7 +26,7 @@ html{
 /*head and nav*/
 .wrap{
 	width: 100%;
-	display: none;
+	/* display: none; */
 	
 }
 .header{

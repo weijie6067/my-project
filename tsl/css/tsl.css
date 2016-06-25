@@ -913,13 +913,17 @@ html, body {
 	transition: none;
 }
 
-#pic1,#pic2,#pic3,#pic4{
+#pic1,#pic11,#pic2,#pic3,#pic4{
 	width: 960px;
 	height: 350px;
 	background-size: 100%;
 	float: left;
 }
 #pic1{
+	background: url(../tslimg/pic1.jpg);
+	background-size: 100%;
+}
+#pic11{
 	background: url(../tslimg/pic1.jpg);
 	background-size: 100%;
 }

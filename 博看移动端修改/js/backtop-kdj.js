@@ -1,8 +1,9 @@
 // window.onload=function(){
-// 	var wid=document.documentElement.clientWidth;
-// 	var scale=wid/640
-// 	// document.body.style.webkitZoom=scale;
-// 	document.body.style.zoom=scale;		
+	// var wid=document.documentElement.clientWidth;
+	// var scale=wid/640
+	// // document.body.style.webkitZoom=scale;
+	// document.body.style.zoom=scale;	
+	// console.log(wid)	
 // }
 // window.onresize=function(){
 // 	var wid=document.documentElement.clientWidth;
@@ -10,13 +11,14 @@
 // 	// document.body.style.webkitZoom=scale;
 // 	document.body.style.zoom=scale;	
 // }
-//window.onload = function(){
-//	var wid = document.documentElement.clientWidth;
-//	var newfs = wid*100/640;
-//	//wid*默认的字体大小/设计图的大小
-//	var html = document.getElementsByTagName('html')[0];
-//	html.style.fontSize = newfs+"px";
-//}
+// window.onload = function(){
+	var wid = document.documentElement.clientWidth;
+	var newfs = wid*100/640;
+	//wid*默认的字体大小/设计图的大小
+	var html = document.getElementsByTagName('html')[0];
+	html.style.fontSize = newfs+"px";
+	console.log(html)
+// }
 //window.onresize = function(){
 //	var wid = document.documentElement.clientWidth;
 //	var newfs = wid*100/640;

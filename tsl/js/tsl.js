@@ -1,14 +1,17 @@
 var newshow = null;
-var screenH=document.documentElement.clientHeight;
+var wid=document.documentElement.clientWidth;
+var html=document.getElementsByTagName("html")[0];
+var scale=wid/1500
+html.style.zoom=scale;
 window.onresize=function(){
 	var wid=document.documentElement.clientWidth;
+	var html=document.getElementsByTagName("html")[0];
 	var scale=wid/1500
-	document.body.style.zoom=scale
+	html.style.zoom=scale;
 }
+
 window.onload=function(){
-	var wid=document.documentElement.clientWidth;
-	var scale=wid/1500
-	document.body.style.zoom=scale
+	
 	var navLi=document.getElementById('nav').getElementsByTagName('li');
 	var navListA=document.getElementById('navlist').getElementsByTagName('a');
 	for (var i = 0; i < navLi.length; i++) {
@@ -132,7 +135,7 @@ function txtPt4(){
 	var timetxtShow3=null;
 	function txtShow3(){
 		var scrolltop3=document.body.scrollTop||window.pageYOffset||document.documentElement.scrollTop;
-		if(scrolltop3>=screenH*2){
+		if(scrolltop3>=screenH*2.5){
 		
 			txt4.style.marginTop=45+"px";
 			txt4h[0].style.opacity=1;
@@ -154,7 +157,7 @@ function txtPt5(){
 	var timetxtShow4=null;
 	function txtShow4(){
 		var scrolltop4=document.body.scrollTop||window.pageYOffset||document.documentElement.scrollTop;
-		if(scrolltop4>=screenH*3){
+		if(scrolltop4>=screenH*5){
 			txt5.style.marginTop=45+"px";
 			txt5h[0].style.opacity=1;
 			txt5p[0].style.opacity=1;
@@ -166,7 +169,7 @@ function txtPt5(){
 //setInterval(function(){
 //	var stp=$("body").scrollTop();
 //	if(stp>screenH*3){
-//		alert()
+//		
 //		$(".txt5 h2,.txt5 h2").animate({"opacity":"1"},3000)
 //		$(".txt5").animate({"marginTop":"45px"},2000)
 //	}
@@ -253,7 +256,7 @@ function batteryline (){
 	var yelLine=document.getElementById('yelLine').getElementsByTagName('div');
 	function battery(){
 		var scrolltop=document.body.scrollTop||window.pageYOffset||document.documentElement.scrollTop;
-		if(scrolltop>=screenH*2){
+		if(scrolltop>=screenH*2.7){
 			yelLine[0].style.height=31+"px";
 			yelLine[1].style.width=322+"px";
 			yelLine[2].style.height=88+"px";
@@ -445,7 +448,7 @@ function autor(){
 setInterval(function(){
 	var stp=$("body").scrollTop();
 	if(stp>screenH*5){
-		alert()
+		
 		$(".txt6 h2,.txt6 h2").animate({"opacity":"1"},3000)
 		$(".txt6").animate({"marginTop":"45px"},2000)
 	}
@@ -455,7 +458,7 @@ setInterval(function(){
 setInterval(function(){
 	var stp=$("body").scrollTop();
 	if(stp>screenH*6){
-		alert()
+		
 		$(".txt7 h2,.txt7 h2").animate({"opacity":"1"},3000)
 		$(".txt7").animate({"marginTop":"45px"},2000)
 	}
@@ -505,14 +508,22 @@ $(function(){
 			index++;
 		if(index>=len){
 			index=0;
-		}},2000)
+		}},1000)
 		}).trigger("mouseleave");
 		
 	
 	
 	function picsShow(index){	
+		
 		var nowLeft=$("#pic1").width()*index
-		$(".lunbo7").stop(true,false).animate({scrollLeft:nowLeft},300)
+		// console.log($(".lunbo7").scrollLeft())
+		if(nowLeft==0){
+			
+			$(".lunbo7").stop(true,false).animate({scrollLeft:0},0)
+		}else{
+			$(".lunbo7").stop(true,false).animate({scrollLeft:nowLeft},300)
+		}
+		
 		$(".lunbo7bot div").stop(true,false).animate({"opacity":"0.4"},300).eq(index).stop(true,false).animate({"opacity":"1"},300)
 	}
 	

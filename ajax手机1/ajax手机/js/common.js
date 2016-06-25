@@ -24,6 +24,7 @@ $.ajax({
 	url:"http://180.76.185.227/lj/zepto/zeptoPhp1.php",
 	dataType:"json",//数据类型
 	success:function(data){
+		console.log(data)
 		arr.push(data)
 		$(".pa_top").css({"background":"url("+arr[0].msg1.photo+")"})
 		$(".pa_cen").css({"background":"url("+arr[0].msg1.title+")"})
