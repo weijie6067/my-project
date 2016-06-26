@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<meta name="format-detection" content="telephone=no"/>
+		
+		<title></title>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mobile.css"/>
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body>
+		<section id="homePage" class="section">
+			<div class="header">
+				<div class="logoImg">
+					<img src="images/img/logo.png"/>
+					<a href="" class="dell_logo"></a>
+					<a href="" class="intel_logo"></a>
+				</div>
+				<nav class="nav" id="success_nav">
+					<ul class="pc_nav">
+						<li><a class="goIndex" onclick="backIndex()">大会首页</a></li>
+						<li><a class="goIndex" onclick="backIndex()">大会看点</a></li>
+						<li><a class="goIndex" onclick="backIndex()">大会议程</a></li>
+						<li><a class="goIndex" onclick="backIndex()">嘉宾介绍</a></li>
+						<li><a class="goIndex" onclick="backIndex()">合作伙伴</a></li>
+						<li><a></a></li>
+					</ul>
+					<ul class="mobile_nav">
+						<li><a class="goIndex" onclick="backIndex()">大会首页</a></li>
+						<li><a class="goIndex" onclick="backIndex()">大会看点</a></li>
+						<li><a class="goIndex" onclick="backIndex()">大会议程</a></li>
+						<li><a class="goIndex" onclick="backIndex()">嘉宾介绍</a></li>
+						<li><a class="goIndex" onclick="backIndex()">合作伙伴</a></li>
+						<li><a></a></li>
+					</ul>
+		    		<button><img src="images/mobile/menu.png"></button>
+				</nav>
+			</div>
+			<div class="banner" id="banner">
+				<img src="images/banner.png"/>
+				<div class="canHui">					
+					<p>2015年11月18日</p>
+					<p class="">上海跨国采购会展中心</p>
+					<a onclick="openReg()" class="register_bnt">立即注册 >></a>
+				</div>			
+			</div>
+			
+			<div class="banner" id="banner2">
+				<img src="images/banner_mobile.jpg"/>
+				<div class="canHui">					
+					<p>2015年11月18日</p>
+					<p class="">上海跨国采购会展中心</p>
+					<a onclick="openReg()" class="register_bnt">立即注册 >></a>
+				</div>				
+			</div>
+		</section>
+		
+		<section id="regSuccessd" class="section">			
+			<div class="page-tit">
+				<i></i>
+				<span>个人注册</span>
+				<i></i>
+			</div>
+			<div class="regsucc-box">
+				<img src="images/img/succeed.png" />
+				<h1 style="color: #494949;">恭喜您，提交成功</h1>
+				<p>我们会尽快审核并以邮件和短信形式发送确认函。</p>
+				<p>具体时间、地点以及详细议程将在参会确认函中通知</p>
+			</div>
+		</section>
+		
+		<div class="footer">
+			
+		</div>
+		
+		<script type="text/javascript">
+			//点击注册
+			function openReg(){
+				var group = GetQueryString("group");
+				if(group==null){
+					$(".register_bnt").attr("href","register.html?group=open&bd=110");
+				}else{
+					$(".register_bnt").attr("href","register.html?group="+group+"&bd=110");
+				}
+			}
+			//点击nav
+			function backIndex(){
+				var group = GetQueryString("group");
+				if(group==null){
+					$(".goIndex").attr("href","index.html?group=open&bd=110");
+				}else{
+					$(".goIndex").attr("href","index.html?group="+group+"&bd=110");
+				}
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,490 @@
+/*大会看点*/
+.highlights{
+	width: 80%;
+	padding: 35px 10% 20px 10%;
+	background: url(../images/highlights_bg.png) 0 0 no-repeat;
+	margin-top: -3px;
+	display: inline-block;
+}
+.highlights h2,.agenda h2,.guest h2,.partner h2{
+	text-align: center;
+	font-size: 22px;
+	font-size: 2.2rem;
+	color: #ffffff;
+	padding-top: 15px;
+}
+.introduce,.light-tex{
+	width: 60%;
+	height: 140px;
+	margin: auto;
+	text-align: center;
+	padding: 18px 0px;
+}
+.light-tex{
+	display: none;
+}
+.introduce p,.light-tex p{
+	line-height: 22px;
+	font-size: 16px;
+	font-size: 1.6rem;
+	color: #ffffff;
+}
+.light-list{
+	width: 100%;
+	display: inline-block;
+}
+.light-list li{
+	display: inline-block;
+	width: 11%;
+	float: left;
+	text-align: center;
+	margin: 1.89%;	
+}
+.light-list li div.light_img{
+	width: 100%;
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+}
+.light-list li:first-child{
+	margin-left: 0px;
+}
+.light-list li:last-child{
+	margin-right: 0px;
+}
+.light-list li img.light_bg{
+	width: 100%;
+	vertical-align: middle;
+}
+.light-list li img.light_icon{
+	width: 30% !important;
+	height: 30%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -15%;
+	margin-left: -15%;
+}
+.light-list li p{
+	text-align: center;
+	font-size: 15px;
+	font-size: 1.5rem;
+	color: #ffffff;
+	margin-top: 4px;
+	padding: 8px 0px;
+}
+/*大会议程*/
+.agenda{
+	display: inline-block;
+	margin-top: -1px;
+	width: 100%;
+	padding: 35px 0px 30px 0px;
+	background: url(../images/agenda_bg.png) 0 0 no-repeat;
+}
+.agenda ul.agenda_title{
+	display: inline-block;
+	width: 80%;
+	padding: 0px 10%;
+	background: url(../images/img/agenda_title.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	margin-top: 30px;
+}
+.agenda ul li{
+	display: inline-block;
+	float: left;
+	width: 11.5%;
+	padding: 1% 0px 1% 0px;
+	text-align: center;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: 600;
+	color: #fff;
+	position: relative;	
+	cursor: pointer;	
+}
+.agenda ul li:nth-child(1){
+	margin-left: 10%;
+}
+.agenda ul li:nth-child(3),
+.agenda ul li:nth-child(4){
+	padding-top: 2%;	
+}
+.agenda_title li span{
+	display: inline-block;
+	width: 90%; padding: 1% 5%;
+}
+.agenda_title li i{
+	display: none;
+	width: 16px;
+	height: 23px;
+	background: url(../images/img/red_dd.png) 0 0 no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: -22px;
+	left: 50%; margin-left: -10px;
+}
+.agenda ul li span.current{
+	color: #C92767;
+}
+.agenda ul li span.current i{
+	display: inline-block;
+}
+.agenda_box{
+	width: 60%;
+	padding: 0px 10% 0px 30%;
+	margin-top: 30px;
+	display: none;
+}
+
+.agenda_box dl dd{
+	width: 100%;
+	padding:0px;
+	margin: 0px;
+	display: inline-block;		
+	position: relative;
+	border-left: 1px solid #fff;
+}
+.agenda_box dl dd:last-child{
+	border-left: none;
+}
+.agenda_box dl dd i{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background: #fff;
+	position: absolute;
+	top: 0; left: -5px;	
+}
+.agenda_box dl dd span{
+	display: inline-block;	
+	font-size: 18px; font-size: 1.8rem;
+	color: #ffffff;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	margin-top: -5px;
+}
+/*演讲嘉宾*/
+.guest{
+	width: 80%;
+	padding: 35px 10% 35px 10%;
+	background: url(../images/guest_bg.png) 0 0 no-repeat;
+}
+.guest .slide-box{
+	width: 80%;
+	position: relative;
+	height: 310px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.slide-box ul {
+	position: absolute;
+	width: 100%;
+	padding: 0;
+	text-align: center;
+	left: 100%
+}
+.slide-box ul.current {
+	left: 0;
+}
+.slide-box ul li {
+	width: 160px;
+	width: 21%;
+	list-style: none;
+	display: inline-block;
+	margin: 0 2%;
+	vertical-align: top;
+}
+.slide-box ul li:first-child {
+	margin-left: 0;
+}
+.slide-box ul li:last-child {
+	margin-right: 0;
+}
+.slide-box ul li span {
+	width: 100%;
+	height: 0;
+	position: relative;
+	padding-bottom: 100%;
+	overflow: hidden;
+	display: inline-block;
+}
+.slide-box ul li span img {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.slide-box ul li p {
+	width: 92%;
+	height: 70px;
+	padding: 2% 4%;
+	font-size: 20px;
+	font-size: 2rem;
+	color: #fff;
+	text-align: left;
+	background: #177ab9;
+}
+.slide-box ul li p i {
+	font-style: normal;
+	color: #fff;
+	font-size: 14px;
+	font-size: 1.4rem;
+	display: block;
+}
+/*========================*/
+.guest_list{
+	position: relative;
+	margin-top: 35px;
+}
+.guest_list .arr {
+	display: inline-block;
+	position: absolute;
+	width: 40px;
+	height: 70px;
+	top: 50%;
+	margin-top: -55px;
+}
+.guest_list .larr {
+	background-image: url("../images/img/jt_left.png");
+	left: 5%;
+}
+.guest_list .rarr {
+	background-image: url("../images/img/jt_right.png");
+	right: 5%;
+}
+.guest_list .arr {
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+/*首页注册*/
+.lijiReg{
+	width: 80%;
+	padding: 35px 10%;
+	background: url(../images/reg_bg.png) 0 0 no-repeat;
+	text-align: center;
+}
+.lijiReg h2{
+	font-size: 28px;
+	font-size: 2.8rem;
+	color: #fff;
+}
+.lijiReg a{
+	display: inline-block;
+	width: 250px; height: 74px;
+	line-height: 74px;
+	background: url(../images/img/button_red.png) 0 0 no-repeat;
+	background-size: 100%;
+	font-size: 22px; font-size: 2.2rem;
+	color: #fff;
+	margin-top: 30px;	
+}
+
+/*合作伙伴*/
+.partner{
+	width: 80%;
+	padding: 40px 10% 50px 10%;
+	background:#141435;
+}
+.partner-list{
+	margin: 35px 0px 45px 0px;
+}
+.partner-list table{
+	width: 100%;
+	border-color:#177ab9;
+}
+.partner-list table tr td{
+	width: 25%;
+	text-align: center;
+	padding: 2% 0px;
+}
+.partner-list a{
+    
+    text-align: center;
+    
+}
+.partner-list td a img{
+	width: 55%;
+	vertical-align: middle;
+}
+
+
+/*注册成功*/
+.page-tit{
+	width: 80%;
+	padding: 0px 10%;
+	display: inline-block;
+	margin-bottom: 2%;
+}
+.page-tit i{
+	float: left;
+	display: inline-block;
+	width: 39%;
+	height: 13px;
+	border-bottom: 1px dashed #cccccc;
+}
+.page-tit span{
+	float: left;
+	display: inline-block;
+	width: 22%;
+	text-align: center;
+	font-size:22px;
+	font-size: 2.2rem;
+	color: #494949;
+	font-weight: 600;
+}
+.regsucc-box{
+	width: 80%;
+	padding: 0% 10%;
+	text-align: center;
+	color: #494949;
+}
+.regsucc-box img{
+	width: auto;
+	height: 70px;
+	margin: 7% auto 5% auto;
+} 
+.regsucc-box h1{
+	font-size: 22px;font-size: 2.2rem;	
+}
+.regsucc-box p{
+	font-size: 16px; font-size: 1.6rem;
+	padding: 1% 0px;
+}
+/*协议*/
+.xieyi-box{
+	width: 80%;
+	padding: 0% 10%;
+	color: #494949;
+}
+.xieyi-box p{
+	font-size: 15px; font-size: 1.5rem;
+	padding: 1% 0px;
+	text-indent: 2em;
+}
+.xieyi-box .button{
+	margin-top: 20px;
+}
+
+/*注册*/
+.register-box{
+	width: 80%;
+	padding: 0% 10%;
+}
+.register-box ul{
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 2%;
+}
+.register-box ul li{
+	display: inline-block;
+	width: 100%;
+	margin-top: 15px;
+}
+.register-box ul li span.title{
+	display: inline-block;
+	width: 360px;
+	text-align: right;
+	font-size: 16px;
+	font-size: 1.6rem;
+	color: #121212;
+	margin-bottom: 0;
+}
+.register-box ul li span.title i{
+	color: red;
+	font-style: normal;
+	vertical-align: middle;
+	padding-right: 5px;
+}
+.register-box ul li label{
+	font-size: 15px;
+	font-size: 1.5rem;
+	color: #343434; 
+	margin-left: 5px;
+	margin-right: 10px;
+}
+.register-box ul li input.in-text{
+	display: inline-block;
+	text-indent:0;
+	width:480px;
+	height: 24px;
+	padding: 8px 5px;
+	font-size: 15px;
+	font-size: 1.5rem;
+	color: #343434;
+	border: 1px solid #e9e9e9;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow:0px 2px 2px #eeeeee inset; 
+	-webkit-box-shadow:0px 2px 2px #eeeeee inset;
+	box-shadow:0px 2px 2px #eeeeee inset;   
+}
+.register-box ul li input.in-text.areaCode{
+	width: 100px;
+}
+.register-box ul li input.in-text.tel{
+	width: 346px;
+}
+.fixed-tel i.minline{
+	display: inline-block;
+	width: 18px;
+	text-align: center;
+}
+.register-box ul li select{
+	display: inline-block;
+	width:492px;
+	height: 40px;
+	font-size: 15px;
+	font-size: 1.5rem;
+	color: #343434;
+	border: 1px solid #e9e9e9;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow:0px 2px 2px #eeeeee inset; 
+	-webkit-box-shadow:0px 2px 2px #eeeeee inset;
+	box-shadow:0px 2px 2px #eeeeee inset;
+}
+.register-box ul li select.province{
+	width: 127px;
+    margin-right: 15px;
+}
+.register-box ul li select.city{
+	width: 350px;
+}
+.register-box .xieyi{
+	text-align: center;
+	font-size: 16px;font-size: 1.6rem;
+	color: #343434;
+	padding: 2% 0px 1.5% 0px;
+}
+.register-box .xieyi input{
+	vertical-align: middle;
+}
+.register-box .button,
+.xieyi-box .button{
+	width: 100%;
+	text-align: center;
+}
+.register-box .button a,
+.xieyi-box .button a{
+	display: inline-block;
+	font-size: 17px;
+	font-size: 1.7rem;
+	color: #ffffff;
+	padding: 1.5% 11%;
+	border: none;
+	background:#C92867;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin: 2% 0px;
+	cursor: pointer;
+}
+
+

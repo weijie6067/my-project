@@ -1,0 +1,436 @@
+@media (max-width: 990px){
+body{
+	overflow-x: hidden !important;
+}
+.banner .canHui a,.banner .canHui p.address{
+	display: none;	
+}
+.banner .canHui p{
+	font-size: 12px;
+	font-size: 1.2rem;		
+}
+.banner .canHui p:nth-child(1){
+	margin-bottom: 0px;
+}
+
+#registerBnt {
+	text-align: center;
+ 	width: 110px;
+    height: 40px;
+    position: fixed;
+    right: 20px;
+    bottom: 8%; 
+  	line-height: 40px;
+  	z-index: 99999;
+  	cursor: pointer;
+  	border-radius: 3px;
+  	background: rgba(0,101,148,0.8);/*0 101 148  24,121,186,*/
+  	font-size: 16px;
+  	border: 1px solid rgba(255,255,255,0.5);
+  	-webkit-transition: border-color 0.3s;
+  	transition: border-color 0.3s;
+}
+#registerBnt a{
+	color: #ffffff;
+}
+#registerBnt:hover{
+	border: 1px solid rgba(255,255,255,1);
+	background: rgba(0,101,148,1);
+}
+/*大会看点-------------------------------------------------------------------*/
+.highlights{
+	width: 94%;
+	padding: 35px 3% 20px 3%;
+	background: url(../images/highlights_bg2.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+	margin-top: 0px;
+}
+.highlights h2,.agenda h2,.guest h2,.partner h2{
+	font-size: 1.8px;
+	font-size: 1.8rem;
+}
+.introduce p, .light-tex p{
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+.introduce,.light-tex{
+	width: 85%;
+	height: auto;
+	padding: 10px 0px 20px 0px;
+	position: relative;
+	z-index: 99;
+}
+.light-tex p:first-child{
+	margin-top: 5px;
+}
+.light-list{
+	width: 100%;
+	padding: 3px 0px;
+	background: url(../images/mobile/light_box.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.light-list li{
+	width: 21%;	
+	margin: 0px;
+}
+.light-list li:nth-child(1){
+	margin: 3px 4% 5px 10%;
+}
+.light-list li:nth-child(2){
+	margin: 3px 4%;
+}
+.light-list li:nth-child(3){
+	margin: 3px 10% 5px 4%;
+}
+.light-list li:nth-child(4){
+	margin: 3px 1% 5px 3%;
+}
+.light-list li:nth-child(5),
+.light-list li:nth-child(6){
+	margin: 3px 2% 5px 2%;
+}
+.light-list li:nth-child(7){
+	margin: 3px 3% 5px 1%;
+}
+.light-list li p{
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+.light-list li:nth-child(1) p,
+.light-list li:nth-child(2) p,
+.light-list li:nth-child(3) p{
+	width: 140%;
+	margin-left: -20%;
+}
+.light-list li:nth-child(4) p,
+.light-list li:nth-child(5) p,
+.light-list li:nth-child(6) p{
+	width: 120%;
+	margin-left: -10%;
+}
+.light-list li:nth-child(7) p{
+	width: 130%;
+	margin-left: -15%;
+}
+
+/*大会议程-------------------------------------------------------------------*/
+.agenda{
+	background: url(../images/agenda_bg2.jpg) 0 0 no-repeat;
+	background-size:100% 100%;
+	padding-bottom: 10px;
+}
+.agenda ul.agenda_title{
+	display: none;
+}
+.agenda_title2{
+	display: inline-block;
+	width: 94%;
+	padding: 0px 3%;
+	margin-top: 30px;	
+}
+.agenda_title2 .line{
+	width: 1px;
+	height: 30px;
+	position: absolute;
+	right: 1%;
+	bottom: -30px;
+	margin-right: -0.5px;
+}
+.agenda_title2 .line img{
+	width: 1px;
+	height: 100%;
+}
+.agenda_title2 ul{
+	display: inline-block;
+	width: 100%;
+	padding: 0px;
+	position: relative;
+}
+.agenda_title2 ul.top{
+	background: url(../images/mobile/agenda_boxTop.png) 0 0 no-repeat;
+	background-size: 99% 100%;	
+}
+.agenda_title2 ul.bottom{
+	background: url(../images/mobile/agenda_boxBot.png) 0 0 no-repeat;
+	background-size: 99% 100%;
+	margin-top: 27px;
+}
+.agenda_title2 ul li{
+	display: inline-block;
+	width: 25%;
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: #fff;
+	position: relative;
+	padding: 4.5% 0px !important;
+}
+.agenda_title2 ul.bottom li:nth-child(1){
+	margin-left: 25%;
+}
+.agenda ul li:nth-child(1){
+	margin-left: 0px;
+}
+.agenda_title2 ul li span{
+	display: inline-block;
+	width: 92%;
+	padding: 0px 4%;
+	text-align: center;
+}
+.agenda_title2 ul.top li:nth-child(2) span,
+.agenda_title2 ul.bottom li:nth-child(1) span{
+	margin-left: 3%;
+}
+.agenda_title2 ul li i{
+	display: none;
+	width: 16px;
+	height: 23px;
+	background: url(../images/img/red_dd.png) 0 0 no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: -20px;
+	left: 50%; margin-left: -8px;
+}
+.agenda_title2 ul li span.current{
+	color: #C92767;
+}
+.agenda_title2 ul li span.current i{
+	display: none;
+}
+.agenda_box{
+	margin-top: 0px;
+	width: 80%;
+  	padding: 0px 10% 0px 12.9%;
+}
+.agenda_box dl dd span{
+	font-size: 14px; font-size: 1.4rem;
+	margin-top: -2px;
+	padding-bottom: 17px;
+}
+.agenda_box dl dd i{
+	background: #e8e7f1;
+}
+.agenda_box dl dd{
+	border-left: 1px solid #e8e7f1;
+}
+.light-title{
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: #ffffff;
+}
+.light-title h3{
+	margin: 5px 0px 6px 0px;
+	font-size: 14px;font-size: 1.4rem;
+}
+.light-title p{
+	margin: 5px 0px;
+	font-size: 15px; font-size: 1.5rem;
+}
+
+/*演讲嘉宾-------------------------------------------------------------*/
+.guest_list{display: none;}
+.guest_listM{
+	display: block;
+	width: 100%;
+	padding-top: 20px;
+}
+.guest{
+	width: 94%;
+	padding: 30px 3% 5px 3%;
+	background: url(../images/guest_bg2.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.guest .mobile_guest{
+	width: 100%;
+	display: inline-block;
+}
+.guest .mobile_guest li{
+	display: inline-block;
+	text-align: center;
+	width: 40%;
+	padding:4% 3%;
+	margin: 2%;
+	background: url(../images/mobile/guest_box.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+.guest .mobile_guest li img{
+	width: 98%;
+}
+.guest .mobile_guest li p{
+	width: 94%;
+	height: 60px;
+	padding: 6px 3%;
+	background: #1879ba;
+	font-size: 16px; font-size: 1.6rem;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.guest .mobile_guest li p i {
+	font-style: normal;
+	color: #fff;
+	font-size: 12px;
+	font-size: 1.2rem;
+	display: block;
+}
+
+.pagination{
+	text-align: center;
+}
+.pagination .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background: url(../images/mobile/white_point.png) 0 0 no-repeat;
+  background-size:100% 100%;
+  opacity: 1;
+  margin: 15px 8px;
+}
+.pagination .swiper-pagination-bullet-active{
+	width: 15px;
+  height: 15px;
+  display: inline-block;
+	background: url(../images/mobile/red_point.png) 0 0 no-repeat;
+	background-size:100% 100%;
+  opacity: 1;
+}
+
+/*首页注册*/
+.lijiReg{
+	padding: 10px 10% 5px 10%;
+	background: url(../images/reg_bg2.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.lijiReg h2{
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+.lijiReg a{
+	margin-top: 10px;
+	width: 110px;
+	height: 35px; line-height: 35px;
+	font-size: 14px; font-size: 1.4rem;
+}
+
+/*合作伙伴---------------------------------------------------------------------------*/
+.partner{
+	width: 94%;
+	padding: 40px 3% 50px 3%;
+	background:#141435;
+}
+.partner-list{
+	display: none;
+}
+.partner-list2{
+	display: block;
+	margin: 30px 0px 20px 0px;
+}
+.partner-list2 table{
+	width: 100%;
+	border-color:#177ab9;
+}
+.partner-list2 table tr td{
+	width: 50%;
+	text-align: center;
+	padding: 3% 0px;
+}
+.partner-list2 a{    
+    text-align: center;   
+}
+.partner-list2 td a img{
+	width: 62%;
+	vertical-align: middle;
+}
+
+/*注册------------------------------------------------------------------------------*/
+	.page-tit i{
+		width: 33%;
+	}
+	.page-tit span{
+		width: 34%;
+		font-size: 19px;
+		font-size: 1.9rem;
+	}
+	.regsucc-box h1{
+		font-size: 21px;font-size: 2.1rem;	
+	}
+	.regsucc-box img{
+		height: 60px;
+		margin: 15% auto 10% auto;
+	}
+	.regsucc-box p{
+		font-size: 14px; font-size: 1.4rem;
+		padding: 4% 0px 6% 0px;
+	}
+	.register-box ul li span.title{
+		width: 100%;
+		text-align: left;
+		font-size: 15px;
+		font-size: 1.5rem;
+		margin-bottom: 5px;
+	}
+	.register-box ul li input.in-text{
+		display: inline-block;
+		padding: 8px 0px;
+		width: 98%;
+		text-indent: 0.5em;
+		margin: 0px auto;
+	}
+	.register-box ul li input.in-text.areaCode{
+		width: 25%;
+	}
+	.register-box ul li input.in-text.tel{
+		width: 67%;
+	}
+	.fixed-tel i.minline{
+		display: inline-block;
+		width: 5%;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		font-style: normal;
+	}
+	.register-box ul li select{
+		width: 98%;
+	}
+	.register-box ul li select.province{
+		width: 30%;
+	}
+	.register-box ul li select.city{
+		width: 63%;
+	}
+	.register-box .xieyi{
+		padding: 5% 0px 4% 0px;
+	}
+	.register-box .button button{
+		padding: 3% 15%;
+	}
+
+}
+
+
+@media (max-width: 359px){
+	.banner .canHui p{
+		font-size: 12px;
+		font-size: 1.2rem;		
+	}
+	.light-list li p,.banner .canHui p{
+		font-size: 12px;
+		font-size: 1.2rem;
+	}
+	.page-tit i{
+		width: 30%;
+	}
+	.page-tit span{
+		width: 40%;
+		font-size: 20px;
+		font-size: 2.0rem;
+	}
+	
+	
+}

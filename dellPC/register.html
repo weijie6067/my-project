@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<meta name="format-detection" content="telephone=no"/>
+		
+		<title></title>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/jsAddress.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mobile.css"/>
+	</head>
+	<body>
+		<section id="homePage" class="section">
+			<div class="header">
+				<div class="logoImg">
+					<!-- <img src="images/img/logo.png"/> -->
+					<a href="" class="dell_logo"></a>
+					<a href="" class="intel_logo"></a>
+				</div>
+				<nav class="nav">
+					<ul class="pc_nav">
+						<li><a class="goIndex" onclick="backIndex()">大会首页</a></li>
+						<li><a class="goIndex" onclick="backIndex()">大会看点</a></li>
+						<li><a class="goIndex" onclick="backIndex()">大会议程</a></li>
+						<li><a class="goIndex" onclick="backIndex()">嘉宾介绍</a></li>
+						<li><a class="goIndex" onclick="backIndex()">合作伙伴</a></li>
+						<li class="current"><a onclick="openReg()" class="register_bnt">注册</a></li>
+					</ul>
+					<ul class="mobile_nav">
+						<li><a class="goIndex" onclick="backIndex()">大会首页</a></li>
+						<li><a class="goIndex" onclick="backIndex()">大会看点</a></li>
+						<li><a class="goIndex" onclick="backIndex()">大会议程</a></li>
+						<li><a class="goIndex" onclick="backIndex()">嘉宾介绍</a></li>
+						<li><a class="goIndex" onclick="backIndex()">合作伙伴</a></li>
+						<li class="current"><a onclick="openReg()" class="register_bnt">立即注册</a></li>
+					</ul>
+		    		<button><img src="images/mobile/menu.png"></button>
+				</nav>
+			</div>
+			<div class="banner" id="banner">
+				<img src="images/banner.png"/>
+				<div class="canHui">					
+					<p>2015年11月18日</p>
+					<p class="">上海跨国采购会展中心</p>
+					<a onclick="openReg()" class="register_bnt">立即注册 >></a>
+				</div>				
+			</div>			
+			<div class="banner" id="banner2">
+				<img src="images/banner_mobile.jpg"/>
+				<div class="canHui">					
+					<p>2015年11月18日</p>
+					<p class="">上海跨国采购会展中心</p>
+					<a onclick="openReg()" class="register_bnt">立即注册 >></a>
+				</div>				
+			</div>
+		</section>
+		
+		<section id="register" class="section">			
+			<div class="page-tit">
+				<i></i>
+				<span>个人注册</span>
+				<i></i>
+			</div>
+			<div class="register-box">
+				<form method="post" action="http://ems.ehui.net/api/mobile/common/meetingUserInputorderh5" id="myform" name="regForm">
+					<input type="hidden" name="meetid" value="1177"/>
+					<input type="hidden" name="formid" value="" id="formId"/>
+					<input type="hidden" name="groupid" value="" id="groupId"/>
+					<input type="hidden" name="609" value="" id="provCity"/><!--省市-->
+					<input type="hidden" name="597" value="" id="guTel"/><!--固话-->
+					<input type="hidden" name="603" value="" id="lunchlist"/><!--午餐-->
+					<input type="hidden" name="594" value="" id="sex"/><!--性别-->
+				<ul>
+					<li>
+						<span class="title"><i>*</i>姓名：</span>
+						<input type="text" class="in-text" name="589"/>
+					</li>
+					<li>
+						<span class="title"><i>*</i>性别：</span>
+						<input type="radio" name="sex" value="男"/><label>男</label>
+						<input type="radio" name="sex" value="女"/><label>女</label>
+					</li>
+					<li>
+						<span class="title"><i>*</i>邮箱：</span>
+						<input type="text" class="in-text" id="email" name="590"/>
+					</li>
+					<li>
+						<span class="title">助理邮箱：</span>
+						<input type="text" class="in-text" name="595"/>
+					</li>
+					<li class="fixed-tel">
+						<span class="title"><i>*</i>联系电话（固定）：</span>
+						<input type="text" id="areaCode" class="in-text areaCode"/><i class="minline">-</i>
+						<input type="text" id="telCode" class="in-text tel"/>
+					</li>
+					<li>
+						<span class="title"><i>*</i>联系电话（移动）：</span>
+						<input type="text" class="in-text text" id="mobile" name="591"/>
+					</li>
+					<li>
+						<span class="title"><i>*</i>职位：</span>
+						<select name="593" id="zhiwei">
+							<option value="">请选择</option>
+							<option value="CEO">CEO</option>
+							<option value="CTO">CTO</option>
+							<option value="IT经理">IT经理</option>
+							<option value="IT技术人员">IT技术人员</option>
+							<option value="营销经理">营销经理</option>
+							<option value="销售经理">销售经理</option>
+							<option value="咨询经理">咨询经理</option>
+							<option value="采购经理">采购经理</option>
+							<option value="其它">其它</option>
+						</select>
+					</li>
+					<li>
+						<span class="title"><i>*</i>公司/单位：</span>
+						<input type="text" class="in-text text" name="592"/>
+					</li>
+					<li>
+						<span class="title"><i>*</i>省份/直辖市：</span>
+						
+						<select class="province" id="Select1"></select>
+						<select class="city" id="Select2"></select>
+						<select class="" id="Select3" style="display: none;"></select>
+					</li>
+					<li>
+						<span class="title"><i>*</i>您与戴尔的关系：</span>
+						<select name="598" id="guanxi">
+							<option value="">请选择</option>
+							<option value="最终客户">最终客户</option>
+							<option value="渠道合作伙伴">渠道合作伙伴</option>
+							<option value="媒体">媒体</option>
+							<option value="戴尔员工">戴尔员工</option>
+							<option value="其它">其它</option>
+						</select>
+					</li>
+					<li>
+						<span class="title"><i>*</i>贵公司所属行业：</span>
+						<select name="599" id="hangye">
+							<option value="">请选择</option>
+							<option value="公共安全">公共安全</option>
+							<option value="医疗">医疗</option>
+							<option value="教育">教育</option>
+							<option value="政务">政务</option>
+							<option value="银行">银行</option>
+							<option value="证券">证券</option>
+							<option value="保险">保险</option>
+							<option value="金融-其他">金融-其他</option>
+							<option value="轨道">轨道</option>
+							<option value="公路">公路</option>
+							<option value="航空">航空</option>
+							<option value="水运">水运</option>
+							<option value="电力">电力</option>
+							<option value="油气">油气</option>
+							<option value="矿业">矿业</option>
+							<option value="ISP">ISP</option>
+							<option value="媒体">媒体</option>
+							<option value="通信">通信</option>
+							<option value="软件及TCT服务">软件及TCT服务</option>
+							<option value="制造">制造</option>
+							<option value="酒店及餐饮">酒店及餐饮</option>
+							<option value="物流">物流</option>
+							<option value="零售与批发">零售与批发</option>
+							<option value="建筑">建筑</option>
+							<option value="房地产">房地产</option>
+							<option value="文体娱乐">文体娱乐</option>
+							<option value="其他">其他</option>
+							<option value="渠道">渠道</option>
+							<option value="咨询">咨询</option>
+						</select>
+					</li>
+					<li>
+						<span class="title"><i>*</i>您希望参加本次会议下午的分论坛为：</span>
+						<select name="601" id="601">
+							<option value="">请选择</option>
+							<option value="云计算分论坛">云计算分论坛</option>
+							<option value="大数据分论坛">大数据分论坛</option>
+							<option value="融合架构分论坛">融合架构分论坛</option>
+							<option value="存储解决方案分论坛">存储解决方案分论坛</option>
+							<option value="商用客户端解决方案">商用客户端解决方案</option>
+							<option value="互联网行业论坛">互联网行业论坛</option>
+							<!--<option value="教育行业论坛">教育行业论坛</option>-->
+							<option value="医疗行业论坛">医疗行业论坛</option>
+							<option value="金融行业论坛">金融行业论坛</option>
+						</select>
+					</li>
+					<li>
+						<span class="title"><i>*</i>您是否需要会务方筹备的午餐：</span>
+						<input type="radio" name="yesNo" id="lunchno" onclick="lunchshow()" value="是"/><label for="lunchno">是</label>
+						<input type="radio" name="yesNo" id="lunchyes" onclick="lunchhide()"/><label for="lunchyes">否</label>
+					</li>
+					<li class="lunch-box" style="display: none;">
+						<span class="title"><i>*</i>您对餐食的需求是：</span>
+						<input type="radio" name="food" value="素食"/><label>素食</label>
+						<input type="radio" name="food" value="清真"/><label>清真</label>
+						<input type="radio" name="food" value="普通"/><label>普通</label>
+					</li>
+					<li>
+						<span class="title"><i>*</i>我愿意通过如下方式介绍戴尔相关信息：</span>
+						<select name="600" id="600">
+							<option value="">请选择</option>
+							<option value="电话和电子邮件">电话和电子邮件</option>
+							<option value="电话">电话</option>
+							<option value="电子邮件">电子邮件</option>
+							<option value="不需要">不需要</option>
+						</select>
+					</li>
+				</ul>
+				</form>
+				<p class="xieyi">
+					<input type="checkbox" id="xieyicheck"/>
+					<span>我已阅读并同意<a href="xieyi.html" style="color: #0082c8;">《Dell企业客户论坛注册协议》</a></span>
+				</p>
+				<div class="button">
+					<a  onclick="checkregbtn()" target="_blank" style="display: inline-block;">立即提交</a>
+				</div>				
+			</div>
+		</section>
+
+		<div class="footer">
+			
+		</div>		
+		
+		<script type="text/javascript">			
+			var group = GetQueryString("group");
+			var bd = GetQueryString("bd");			
+			addressInit('Select1', 'Select2', 'Select3');
+			
+			function lunchshow(){
+				$(".lunch-box").show();
+			}
+			function lunchhide(){
+				$(".lunch-box").hide();
+			}
+			
+			function checkregbtn(){
+				var landline = $("#areaCode").val() + $("#telCode").val();//固定电话
+				var address = $(".province").val() + $(".city").val();//省市
+				var lunchtype = "";//午餐
+				var sexn = $("input[name='sex']:checked").val();				
+				var email = $("#email").val();
+				var mobile = $("#mobile").val();				
+				//alert(sexn)
+				$("#groupId").val(group);
+				$("#fromId").val(bd);
+				
+				if($(".lunch-box").is(":visible")){
+					lunchtype = $("input[name='food']:checked").val();
+					$("#lunchlist").val(lunchtype);
+				}else{
+					$("#lunchlist").val("否");
+				}				
+				$("#groupId").val(group);
+				$("#formId").val(bd);
+				$("#provCity").val(address);
+				$("#guTel").val(landline);
+				$("#sex").val(sexn);
+				checkemail(email);								
+			}			
+			function checkemail(email){
+				var url = "/api/mobile/common/checkEmail";		
+				$.ajax({
+				   async:false,
+				   url: url,
+				   type: "GET",
+				   dataType: 'jsonp',
+				   jsonp: 'jsonpCallback',
+				   timeout: 5000,
+				   data:{
+			        	meetid:1177,
+			        	email:email
+			       },
+				   beforeSend: function(){
+				   },
+				   success: function (json) {
+				    //alert(json)
+				    if(json == 0){
+				    	alert("该邮箱已注册，请更换其它邮箱。");				    		
+				    }else if($("input[name='589']").val() == ""){
+				    	alert("请输入您的姓名");				    	 				   		
+				    }else if(!$("input[name='sex']:checked").length>0){
+				    	alert("请选择您的性别")
+				    }else if($("input[name='590']").val() == ""){
+				    	alert("请输入您的邮箱");				    	 				   		
+				    }else if($("#areaCode").val() == ""){
+				    	alert("请输入您的固定电话号区号");				    	 				   		
+				    }else if($("#telCode").val()== ""){
+				    	alert("请输入您的固定电话号");
+				    }else if($("input[name='591']").val() == ""){
+				    	alert("请输入您的手机号");				    	 				   		
+				    }else if($("#zhiwei").val()==""){
+				    	alert("请选择职位");
+				    }else if($("input[name='592']").val() == ""){
+				    	alert("请输入您的公司/单位");				    	 				   		
+				    }else if($("#Select1").val()=="请选择"){
+				    	alert("请选择省份/直辖市");
+				    }else if($("#guanxi").val()==""){
+				    	alert("请选择您与戴尔的关系")
+				    }else if($("#hangye").val()==""){
+				    	alert("请选择贵公司所属行业")	
+				    }else if($("#601").val()==""){
+				    	alert("请选择您希望参加本次会议下午的分论坛为");	
+				    }else if(!$("input[name='yesNo']:checked").length>0){					    
+				    	alert("请选择您是否需要会务方筹备的午餐");				    	
+				    }else if($(".lunch-box").is(":visible")){
+			    		if(!$("input[name='food']:checked").length>0){
+			    			alert("请选择您需要会务方筹备的午餐类型");
+			    		}else if($("#600").val()==""){
+				    		alert("请选择您愿意通过如下方式介绍戴尔相关信息")
+				   		}else if(!$("#xieyicheck").is(":checked")){
+							alert("请仔细阅读《Dell企业客户论坛注册协议》并同意。");			
+						}else{
+					    	$("#myform").submit();				    	
+					    }						    		
+				    }else if($("#600").val()==""){
+				    	alert("请选择您愿意通过如下方式介绍戴尔相关信息")
+				    }else if(!$("#xieyicheck").is(":checked")){
+						alert("请仔细阅读《Dell企业客户论坛注册协议》并同意。");			
+					}else{
+				    	$("#myform").submit();				    	
+				    }				   
+				  }			
+				});
+			}
+		</script>
+		<script type="text/javascript">
+			//点击注册
+			function openReg(){
+				var group = GetQueryString("group");
+				if(group==null){
+					$(".register_bnt").attr("href","register.html?group=open&bd=110");
+				}else{
+					$(".register_bnt").attr("href","register.html?group="+group+"&bd=110");
+				}
+			}
+			//点击nav
+			function backIndex(){
+				var group = GetQueryString("group");
+				if(group==null){
+					$(".goIndex").attr("href","index.html?group=open&bd=110");
+				}else{
+					$(".goIndex").attr("href","index.html?group="+group+"&bd=110");
+				}
+			}
+		</script>
+	</body>
+</html>
